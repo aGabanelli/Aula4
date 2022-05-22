@@ -1,0 +1,182 @@
+h1, h2, h3, p, body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(3, 3, 52);
+    font-family: Arial;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+header{
+    width: 810px;
+    height: 1210px;
+    background-color: rgb(63, 106, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+}
+.container{
+    width: 780px;
+    height: 1180px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 15px;
+}
+nav{
+    width: 780px;
+    height: 40px;
+    background-color: rgb(63, 47, 127);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-size: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+.titlebar{
+    width: 780px;
+    height: 70px;
+    background-color: rgb(150, 195, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titlebar > p{
+    font-size: 30px;
+    font-family: cursive;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.homeItem{
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.item{
+    margin-top: 20px;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+}
+#top{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0;
+}
+img{
+    float: left;
+    margin-right: 15px;
+}
+.alignH{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 0;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+h2{
+    margin-left: -80px;
+    margin-top: 30px;
+}
+audio{
+    height: 60px;
+    width: 600px;
+    margin-top: 10px;
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 2fr 50px;
+    align-items: center;
+    justify-content: center;
+}
+.videos{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.conjItens{
+    display: flex;
+
+}
+h3{
+    font-size: 30px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 24px;
+}
+.textbox{
+    height: 25px;
+    width: 400px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.boxmsg{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-left: 10px;
+}
+.mensagemGeral{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-size: 24px;
+}
+.mensagembox{
+    width: 700px;
+    height: 120px;
+    font-size: 22px;
+    padding: 5px;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.alinhamento{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    border: none;
+    background-color: rgb(24, 16, 79);
+    color: azure;
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: rgb(51, 64, 180);
+}
+label{
+    width: 100px;
+    text-align: end;
+}
